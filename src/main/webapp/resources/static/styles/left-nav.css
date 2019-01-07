@@ -1,0 +1,186 @@
+/**
+ * @FileName: variable
+ * @Author: wenq
+ * @Explain: 变量
+ * @Time: 2014-12-29
+ */
+/* ------ 字体变量 ------ */
+/* 宋体 */
+/* 微软雅黑 */
+.left-nav {
+  color: #355e8c;
+  width: 225px;
+  float: left;
+}
+.left-nav h1 {
+  height: 77px;
+  margin: 0;
+  /* background: url(../../static/images/left-nav-bak.png) no-repeat center center #6888ae; */
+}
+.left-nav h1 a {
+  font: 0 a;
+}
+.left-nav .nav a {
+  display: inline-block;
+  width: 225px;
+  font: 16px "\5FAE\8F6F\96C5\9ED1";
+  background-color: #dfebf7;
+  *margin-bottom: 5px;
+}
+.left-nav .nav a span,
+.left-nav .nav a p {
+  color: #4667c1;
+}
+.left-nav .nav a span {
+  line-height: 38px;
+  padding-left: 14px;
+  border-left: 3px solid #8aa5c2;
+  float: left;
+}
+.left-nav .nav a p {
+  display: none;
+  float: right;
+  margin-top: 9px;
+  margin-right: 34px;
+  width: 0px;
+  height: 0px;
+}
+.left-nav .nav a:hover {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #cadbeb;
+  text-decoration: none;
+}
+.left-nav .nav a:hover span,
+.left-nav .nav a:hover p {
+  color: #2750ba;
+  font-size: 18px;
+}
+.left-nav .nav a:hover span {
+  border-left: 3px solid #2750ba;
+}
+.left-nav .nav a:hover p {
+  display: inline-block;
+}
+.nav-g h1 {
+  background: url(../../static/images/left-nav-bak02.png) no-repeat center center #6888ae;
+}
+.nav-g dl dt .icon_01 {
+  display: inline-block;
+  width: 225px;
+  font: 16px "\5FAE\8F6F\96C5\9ED1";
+  background-color: #dfebf7;
+  *margin-bottom: 5px;
+  border-bottom: 1px solid #c0d1e3;
+}
+.nav-g dl dt span,
+.nav-g dl dt p {
+  color: #4667c1;
+}
+.nav-g dl dt span {
+  line-height: 38px;
+  padding-left: 14px;
+  border-left: 3px solid #8aa5c2;
+  float: left;
+}
+.nav-g dl dt p {
+  display: none;
+  float: right;
+  margin-top: 9px;
+  margin-right: 34px;
+  width: 0px;
+  height: 0px;
+}
+.nav-g dl dt:hover {
+  display: inline-block;
+  cursor: pointer;
+  background-color: #cadbeb;
+  text-decoration: none;
+}
+.nav-g dl dt:hover span,
+.nav-g dl dt:hover p {
+  color: #2750ba;
+  font-size: 18px;
+}
+.nav-g dl dt:hover span {
+  border-left: 3px solid #2750ba;
+}
+.nav-g dl dt:hover p {
+  display: inline-block;
+}
+.nav-g dl dd {
+  display: none;
+}
+.nav-g dl .active a span {
+  font-weight: bold;
+}
+.nav-g dl .active a p {
+  display: inline-block;
+}
+.nav-g .on dd {
+  display: inline-block;
+  width: 200px;
+}
+.nav-g .on dd a {
+  font-size: 12px;
+  line-height: 25px;
+}
+.nav-g .on dd a span,
+.nav-g .on dd a p {
+  color: #2750ba;
+}
+.nav-g .on dd a span {
+  line-height: 25px;
+  padding-left: 24px;
+  float: left;
+}
+.nav-g .on dd a p {
+  display: none;
+  float: right;
+  margin-right: 24px;
+  width: 0px;
+  height: 0px;
+}
+.nav-g .on dd a:hover {
+  display: inline-block;
+  cursor: pointer;
+}
+.nav-g .on dd a:hover span,
+.nav-g .on dd a:hover p {
+  display:inline;
+	float:left;
+
+}
+.nav-g .on dd a:hover span {
+  font-weight: bold;
+  width: 152px;
+}
+.nav-g .on dd a:hover p {
+  display: inline-block;
+}
+.nav-tqjc h1{background: url(../../static/images/left-nav-bak.png) no-repeat center center #6888ae;}
+.nav-s h1 {
+  background: url(../../static/images/left-nav-bak01.png) no-repeat center center #6888ae;
+}
+.nav-m h1 {
+  background: url(../../static/images/left-nav-bak03.png) no-repeat center center #6888ae;
+}
+.nav-yj{
+  background: url(../../static/images/left-nav-bak04.png) no-repeat center center #6888ae;
+}
+.left_nav01_s .left-nav .nav .nav_left01, .left_nav02_s .left-nav .nav .nav_left02, .left_nav03_s .left-nav .nav .nav_left03, .left_nav04_s .left-nav .nav .nav_left04, .left_nav05_s .left-nav .nav .nav_left05, .left_nav06_s .left-nav .nav .nav_left06, .left_nav07_s .left-nav .nav .nav_left07, .left_nav08_s .left-nav .nav .nav_left08,.left_nav09_s .left-nav .nav .nav_left09  {
+    display: inline-block;
+    cursor: pointer;
+    background-color: #cadbeb;
+    text-decoration: none;
+}
+.left_nav01_s .left-nav .nav .nav_left01 span, .left_nav01_s .left-nav .nav .nav_left01 p, .left_nav02_s .left-nav .nav .nav_left02 span, .left_nav02_s .left-nav .nav .nav_left02 p, .left_nav03_s .left-nav .nav .nav_left03 span, .left_nav03_s .left-nav .nav .nav_left03 p, .left_nav04_s .left-nav .nav .nav_left04 span, .left_nav04_s .left-nav .nav .nav_left04 p, .left_nav05_s .left-nav .nav .nav_left05 span, .left_nav05_s .left-nav .nav .nav_left05 p, .left_nav06_s .left-nav .nav .nav_left06 span, .left_nav06_s .left-nav .nav .nav_left06 p, .left_nav07_s .left-nav .nav .nav_left07 span, .left_nav07_s .left-nav .nav .nav_left07 p, .left_nav08_s .left-nav .nav .nav_left08 span, .left_nav08_s .left-nav .nav .nav_left08 p, .left_nav09_s .left-nav .nav .nav_left09 span, .left_nav09_s .left-nav .nav .nav_left09 p {
+    color: #2750ba;
+    font-size: 18px;
+}
+.left_nav01_s .left-nav .nav .nav_left01 span, .left_nav02_s .left-nav .nav .nav_left02 span, .left_nav03_s .left-nav .nav .nav_left03 span, .left_nav04_s .left-nav .nav .nav_left04 span, .left_nav05_s .left-nav .nav .nav_left05 span, .left_nav06_s .left-nav .nav .nav_left06 span, .left_nav07_s .left-nav .nav .nav_left07 span, .left_nav08_s .left-nav .nav .nav_left08 span,  .left_nav09_s .left-nav .nav .nav_left09 span {
+    border-left: 3px solid #2750ba;
+}
+.left_nav01_s .left-nav .nav .nav_left01 p, .left_nav02_s .left-nav .nav .nav_left02 p, .left_nav03_s .left-nav .nav .nav_left03 p, .left_nav04_s .left-nav .nav .nav_left04 p, .left_nav05_s .left-nav .nav .nav_left05 p, .left_nav06_s .left-nav .nav .nav_left06 p, .left_nav07_s .left-nav .nav .nav_left07 p, .left_nav08_s .left-nav .nav .nav_left08 p, .left_nav09_s .left-nav .nav .nav_left09 p {
+    display: inline-block;
+}

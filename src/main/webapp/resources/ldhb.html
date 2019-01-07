@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>雷达组网拼图</title>
+</head>
+<body>
+<iframe src="##" id="menuFrame" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" onLoad="iFrameHeight()"></iframe>
+</body>
+<script type="text/javascript" language="javascript">   
+
+function iFrameHeight() {   
+	document.getElementById('menuFrame').src="http://www.zjmb.gov.cn/leida/ldpt.jsp";
+	function autoHeight() {
+    var ifr = document.getElementById('menuFrame');
+    ifr.height = (ifr.contentDocument && ifr.contentDocument.body.offsetHeight)
+            || (ifr.contentWindow.document.body.scrollHeight);
+} 
+}   
+</script>
+</html>

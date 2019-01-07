@@ -1,0 +1,86 @@
+/*
+ * 初始化样式
+ */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-size: 14px;
+	font-family: "SimSun","serif";
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	font-size: 100%;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+a {
+	color: #555;
+	text-decoration: none;
+}
+
+input, textarea, select {
+	font-size: 12px;
+	outline: none;
+	resize: none;
+	border: none;
+}
+table {
+	border-collapse: collapse;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	font-size: 0;
+	visibility: hidden;
+}
+.clearfix {
+	*zoom: 1;
+}
+iframe {
+	border: 0px;
+}
+ul, ol, li{
+	list-style: none;
+}
+ul li, select, input {
+	cursor: pointer;
+}
+input::-ms-clear {display:none;}
+/*页面样式定义*/
+.container{
+	width:90%;
+	padding:10px 5%;
+}
+h2.subtit{
+	font-size: 18pt;
+	color:#000;
+	margin:10px 0px;
+	font-family:"Microsoft YaHei","SimHei","san-serif";
+}
+span.spandetail {
+    font-size: 13pt;
+    color:#1f2847;
+    font-weight:bold;
+}
+.m_block {
+    margin: 5px;
+    font-size: 11pt;
+    line-height:24px;
+}
+img.showimg {
+    display: block;
+    /* width: 90%; */
+    width: 100%;
+    height: auto;
+}
+img.halfwidth{
+	width:60%;
+	margin:0px auto 10px auto;
+	border:1px solid #eee;
+}

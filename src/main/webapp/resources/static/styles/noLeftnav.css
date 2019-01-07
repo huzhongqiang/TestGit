@@ -1,0 +1,223 @@
+/*加油站与气象影视作品没有左菜单样式*/
+.contentBoxFull{
+	width:1240px;
+	height:740px;
+	background: url(../images/fillingStation/contentbgfull.png) no-repeat center;
+	margin-top:30px;
+	position:relative;
+}
+.contentBoxFull.adaptHeight{
+	background: none;
+	height:auto;
+}
+.centerBlockBg{
+	width:1240px;
+	height:100%;
+	position:absolute;
+	top:0;
+	z-index: -1;
+}
+.adaptHeight .mainBg{
+	width:1148px;
+	height:100%;
+	background:rgba(203,235,255,0.5);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#7Fcbebff,endColorstr=#7Fcbebff);
+	/*border-radius:20px;*/
+	float:left;
+}
+.adaptHeight .leftRadius{
+	width:30px;
+	height:100%;
+	float:left;
+}
+.adaptHeight .rightShadow{
+	width:62px;
+	height:100%;
+	float:left;
+}
+.adaptHeight .bottomShadow{
+	height:66px;
+	width:96%;
+	position:absolute;
+	left:14px;
+	bottom:-66px;
+	z-index: -2;
+}
+.FSList{
+	width:85%;
+	margin:0px auto;
+	padding-top:50px;
+	float:none;
+	clear:both;
+}
+.FSList li {
+    line-height: 40px;
+    height: 40px;
+}
+.FSList li a {
+    color: #163257;
+}
+.FSList li a:hover{
+	text-decoration: underline;
+}
+.FSList li span.time {
+    font-size: 12px;
+    display: block;
+    float: right;
+    color: #5578a7;
+    height: 40px;
+    line-height: 40px;
+    margin-right:40px;
+}
+.pageControl{
+	width:380px;
+	margin:0px auto;
+	margin-top:20px;
+}
+.pageControl .pageP{
+	background: #58abe1;
+	display:block;
+	float:left;
+	padding:0px 8px;
+	height:24px;
+	line-height:24px;
+	text-align:center;
+	font-style:normal;
+	color:#fff;
+	margin:0px 3px;
+	cursor:pointer;
+}
+.pageP.current,.pageP:hover{
+	background:#e8424f;
+}
+/*气象影视作品*/
+.videoList{
+	width:78%;
+	padding-top:50px;
+	margin-left:110px;
+}
+.videoBox{
+	width:220px;
+	float:left;
+	background:#fff;
+	border-radius: 3px;
+	position:relative;
+	box-shadow: 0 0 2px rgba(76,108,153,0.4);
+    margin-left: 20px;
+}
+.videoImg{
+	height:178px;
+}
+.videoImg img{
+	width:100%;
+	position:absolute;
+}
+.playVideo{
+	display:block;
+	width:48px;
+	height:48px;
+	background: url(../images/televesionWork/playBtn.png) no-repeat center;
+	border:0px;
+	margin:0px auto;
+	position:relative;
+	top:68px;
+	cursor:pointer;
+}
+.playVideo:hover{
+	filter:alpha(opacity=90); /*IE滤镜，透明度50%*/
+	-moz-opacity:0.9; /*Firefox私有，透明度50%*/
+	 -khtml-opacity:0.9;/* 老版Safari */
+	opacity:0.9;/*其他，透明度50%*/
+}
+.textInfo{
+	padding-left:10px;
+	height:100px;
+}
+.teleList{
+	padding-top:20px;
+}
+.videoBox .textInfo .title {
+    display: block;
+    width: 80%;
+    color: #163257;
+    padding-top: 14px;
+    margin-bottom: 3px;
+}
+.videoBox .textInfo .time {
+    display: block;
+    font-size: 12px;
+    color: #8c9fb8;
+}
+/*视频播放浮层*/
+.videoPlayPop{
+	position: absolute;
+    width: 100%;
+    height: 900px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.7);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#B2000000,endColorstr=#B2000000);
+    z-index: 999;
+}
+.videoPlayPop .videoBlock{
+	width:650px;
+	margin:0px auto;
+	margin-top:170px;
+	position:relative;
+}
+.videoPlayPop .closeBtn{
+	display: block;
+    width: 24px;
+    height: 24px;
+    border: 0px;
+    background: url(../images/member/close.png) no-repeat center;
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    cursor: pointer;
+}
+/*详情页面样式*/
+.Detailcontent{
+	width:82.5%;
+	margin-left:90px;
+	padding-top:50px;
+}
+.Detailcontent .m_title{
+	display:block;
+	text-align: center;
+	font-size:18px;
+	color:#163257;
+}
+.Detailcontent .reportTime{
+	font-family:"SimSun","serif";
+	text-align: center;
+	color:#3c6382;
+	margin:10px 0px 20px 0px;
+}
+.Detailcontent div#detailPart img{
+	display:block;
+	margin:0px auto;
+}
+.Detailcontent div#detailPart{
+	color:#163257;
+	line-height:40px;
+}
+.newsControl{
+	width:1200px;
+	border-top:1px solid #bfe6ff;
+	margin-bottom:66px;
+}
+.newsControl a{
+	display:block;
+	height:30px;
+	line-height: 30px;
+	margin-left:90px;
+	cursor:pointer;
+	color:#163257;
+}
+.newsControl a:hover{
+	text-decoration: underline;
+}
+a.LastPiece{
+	margin-top:10px;
+}
